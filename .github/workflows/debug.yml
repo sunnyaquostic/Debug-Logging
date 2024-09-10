@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Step 1 - Checkout Repo
-              uses: actions/chekout@v4
+              uses: actions/checkout@v4
 
             - name: step 2 - Set User 1 as Username
               run: |
